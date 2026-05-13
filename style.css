@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*MENU*/
+
+nav {
+    width: 100%;
+
+    padding: 20px 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background-color: #111827;
+}
+
+.menu {
+    display: flex;
+
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+}
+
+.menu a:hover {
+    color: #38bdf8;
+}
+
+
+
+/* PARTE DE CIMA DO SITE*/
+
+header {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-top: 120px;
+
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+
+p {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+
+
+/*BOTÃO DO HEADER*/
+
+button {
+
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+
+    background-color: #38bdf8;
+    color: black;
+
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #0ea5e9;
+}
+
+
+
+/*SECTION SOBRE*/
+
+.sobre {
+    padding: 150px 170px;
+    background-color: #111827;
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 35px;
+    color: #cbd5e1;
+}
+
+
+
+/*PROJETOS*/
+
+.projetos {
+    padding: 100px 20px;
+
+    text-align: center;
+}
+
+.projetos h2 {
+    font-size: 40px;
+
+    margin-bottom: 50px;
+}
+
+
+
+/*CARDS*/
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+/*CARD*/
+
+.card {
+    background-color: #111827;
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.2s;
+    border: 1px solid transparent;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border: 1px solid #38bdf8;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #cbd5e1;
+}
